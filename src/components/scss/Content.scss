@@ -1,0 +1,34 @@
+#Content {
+    align-content: center;
+    #contentApp {
+      margin: 130px auto 100px auto;
+      width: 100%; 
+      position: absolute;
+      display: flow-root;
+      align-content: center;
+      table {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+      }
+    }
+  
+    #loading {
+      background: rgba(#000, 0.3);
+      width: 100%; 
+      height: 100%;
+      position: fixed;
+      display: flex;
+      align-content: center;
+      align-content: center;
+      justify-content: center;
+      overflow: auto;
+      
+      z-index: 100;
+      
+      img {
+        position: relative;
+        margin: auto;
+      }
+    }
+  }
